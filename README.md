@@ -7,9 +7,11 @@ if you wish delete file from sftp server after recevied data or specify a time f
 
 Firstly, create a virtual environment and install requirements as the following;
 
-`python3 -m venv venv`
-`source venv/bin/activate`
-`pip install -r requirements.txt`
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
 Parameters in config.py file must be filled as required.
 
