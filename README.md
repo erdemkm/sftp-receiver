@@ -13,8 +13,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Parameters in config.py file must be filled as required.
+Parameters in config.py file must be filled as required. If you want to use cron, run.sh script can added to crontab like below;
 
+```
+crontab -e
+*/5 * * * * /opt/sftp-receiver/run.sh
+```
 
 # Usage
 ```
