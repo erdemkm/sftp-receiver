@@ -1,2 +1,2 @@
 # sftp-receiver
-Receive data from sftp server and extract gz file
+Receive compressed data from sftp server and extract gz file
